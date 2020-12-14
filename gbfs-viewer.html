@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chris Sarli - Portfolio</title>
+    <link rel="stylesheet" href="https://use.typekit.net/rrn2vlm.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="page_content" class="subpage">
+        <div id="title_block">
+            <div id="spacer"></div>
+            <div id="subtitles">
+                <div><a href="index.html">&lArr; Return To Main Site</a></div>
+                <div>Personal Site of Chris Sarli</div>
+            </div>
+        </div>
+        <div id="content">
+            <h3>GBFS Viewer</h3>
+            <iframe src="https://chris-sarli.github.io/GBFS-Viewer/" frameborder="0"></iframe>
+            <div class="link_box">Full tool is available at <a href="https://chris-sarli.github.io/GBFS-Viewer/"
+                    target="_blank">https://chris-sarli.github.io/GBFS-Viewer/</a></div>
+            <p><a href="http://chris-sarli.github.io/GBFS-Viewer/">GBFS Viewer</a> is a very simple tool that uses <a href="https://github.com/NABSA/gbfs"
+                    target="_blank">GBFS</a> feeds to provide a realtime map of multiple scooter- and bike-share
+                systems.
+                The tool is adaptable to any City and feed provider (as long as their
+                GBFS follows the <a href="https://github.com/NABSA/gbfs/blob/master/gbfs.md" target="_blank">official
+                    specification</a>), but this instance has been created for
+                operators in Providence, RI.</p>
+            <p>The tool also counts vehicles per geographic zone specified for <a
+                    href="https://www.providenceri.gov/wp-content/uploads/2019/08/PTD-Regulations-Sept-1-2019.pdf"
+                    target="_blank">regulatory distribution requirements.</a></p>
+            <p>This project was inspired by a conversation with a member of the City&#146;s planning department about
+                the
+                analytic challenges and opportunities associated with micromobility. A purpose of a GBFS feed is to make
+                micromobility data available to the general public. The structure of GBFS is technical in nature:
+                it&rsquo;s
+                all JSON. While this is very helpful for developers, it&rsquo;s useless to the majority of the public.
+            </p>
+            <p>I knew that most people who <em>would</em> want or need to do advanced geospatial analysis of this data
+                either worked for the City and had access to non-public <a
+                    href="https://github.com/openmobilityfoundation/mobility-data-specification" target="_blank">MDS</a>
+                APIs or, like me, could deal with JSON. While there are many ways this data could be made useful to
+                <em>and</em> usable by the public, a map was the most intuitive. While geographic illiteracy sadly
+                remains an issue in Providence, any type of location-based information can most easily be understood in
+                this form. Therefore, I saw the provision of this information to the public (without requiring the
+                installation of any of the company&rsquo;s software) as a reasonable and useful public service.</p>
+            <p>On the recommendation of my interlocutor, I dove into <a href="https://leafletjs.com"
+                    target="_blank">Leaflet</a> for this assignment. For the most part, the interface is one big
+                Leaflet map, extended with some custom buttons to refresh data from the GBFS feeds. The
+                zone counting mentioned above was added after the basic functionality was implemented. <a
+                    href="https://qgis.org/en/site/" target="_blank">QGIS</a> was used to
+                create zone shapes from <a href="http://www.rigis.org" target="_blank">RIGIS</a> data, and <a
+                    href="https://turfjs.org" target="_blank">Turf.js</a> is used to count the number of vehicles in each zone.</p>
+            <p>GBFS Viewer is under active (if gradual) development. I intend to create a slightly more advanced
+                version, which can display <a href="https://wiki.openstreetmap.org/wiki/Isochrone"
+                    target="_blank">isochrones</a> for all vehicles simultaneously.</p>
+            <div class="link_box multiline">The project is <a href="https://github.com/chris-sarli/GBFS-Viewer/" target="_blank">on GitHub,</a> where you
+                can
+                view the <a href="https://github.com/chris-sarli/GBFS-Viewer/commits/master" target="_blank">commit
+                    history</a> (please excuse my sloppy git habits).</div>
+        </div>
+        <div id="footer">Copyright © 2019 Christopher Sarli</div>
+    </div>
+</body>
+
+</html>
