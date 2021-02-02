@@ -200,6 +200,11 @@ p {
     background: url('./img/parking.png');
 }
 
+#building_age_img {
+    background-size: contain;
+    background: url('./img/how-old-is-providence.png');
+}
+
 .description {
     line-height: 1.5;
     width: calc(100% - 175px);
