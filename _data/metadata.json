@@ -1,0 +1,20 @@
+{
+  "title": "Chris Sarli",
+  "url": "https://chris.sarl/",
+  "language": "en",
+  "description": "The personal website of Chris Sarli.",
+  "feed": {
+    "subtitle": "A short bio, links to projects, and the occasional blog post.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Chris Sarli",
+    "url": "chris.sarl"
+  }
+}

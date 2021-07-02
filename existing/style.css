@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Sans+Condensed:400,600,700|IBM+Plex+Serif:400,400i,600,700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+    font-family: 'IBM Plex Serif', serif;
+}
+
+#page_content {
+    box-sizing: border-box;
+    padding: 1em;
+    max-width: calc(720px + 1em);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#page_content.subpage {
+    padding-top: 0;
+}
+
+.subpage #title_block {
+    margin: 0.2em;
+}
+
+.subpage #title_block #spacer {
+    border-top-width: 2px;
+}
+
+#subtitles div a {
+    text-decoration: none;
+}
+
+.link_box {
+    text-align: center;
+    border-radius: 15px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 1em;
+    border: 4px dashed #eee;
+    background-color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.link_box.multiline {
+    text-align: left;
+}
+
+.continue_link {
+    float: right;
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.continue_link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4px;
+    margin: 2px;
+}
+
+.continue_link a:hover {
+    text-decoration: underline;
+    background-color: #f3f3f3;
+}
+
+#subtitles div a:hover {
+    text-decoration: underline;
+}
+
+#title_block {
+    margin-top: 1.7em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+}
+
+#spacer {
+    width: 100%;
+    border-top: 1px solid #555;
+    height: 2px;
+    border-bottom: 1px solid #555;
+    margin-bottom: 7px;
+}
+
+#subtitles {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#subtitles div {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 0.9em;
+    font-weight: light;
+    text-transform: uppercase;
+    color: #555;
+}
+
+#contact_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact_info div:last-of-type {
+    margin-left: 12px;
+}
+
+#email a {
+    text-transform: lowercase !important;
+}
+
+#content {
+    width: 100%;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 12pt;
+    line-height: 1.5;
+}
+
+#items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.item:last-of-type {
+    border-bottom: none;
+}
+
+.work_image {
+    width: 175px;
+    margin-right: 1em;
+    box-sizing: border-box;
+    background: #f8f8f8;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+#gbfs_viewer_img {
+    background: url('./img/gbfs_viewer.png');
+}
+
+#parking_img {
+    background-size: contain;
+    background: url('./img/parking.png');
+}
+
+#building_age_img {
+    background-size: contain;
+    background: url('./img/how-old-is-providence.png');
+}
+
+.description {
+    line-height: 1.5;
+    width: calc(100% - 175px);
+}
+
+.description .title {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #004b8c;
+}
+
+a img {
+    cursor: zoom-in;
+}
+
+iframe {
+    box-sizing: border-box;
+    margin: 1em 0 1em 0;
+    width: 100%;
+    height: 390px;
+}
+
+#footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #555;
+}
+
+@media only screen and (max-width: 500px) {
+    #subtitles {
+        flex-direction: column;
+    }
+    #contact_info {
+        margin-top: 5px;
+    }
+    p,
+    .explanation {
+        font-size: 14pt;
+    }
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 0 !important;
+        margin-top: 2.3rem;
+    }
+    .item {
+        flex-direction: column-reverse !important;
+        width: auto;
+        padding-bottom: 12px;
+        margin-bottom: 0;
+    }
+    .description {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+    .work_image {
+        display: none;
+    }
+}
