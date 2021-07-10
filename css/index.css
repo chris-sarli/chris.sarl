@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,600,700&display=swap');
 /* Colors */
 :root {
   --lightgray: #e0e0e0;
@@ -9,6 +10,8 @@
   --white: #fff;
   --header-font-size: 1.4em;
   --sans: -apple-system, system-ui, sans-serif;
+  --serif: "IBM Plex Serif", serif;
+  --default-font-size: 16px;
 }
 
 /* Global stylesheet */
@@ -23,6 +26,7 @@ body {
   font-family: var(--sans);
   color: var(--darkgray);
   background-color: var(--white);
+  font-size: var(--default-font-size);
 }
 p:last-child {
   margin-bottom: 0;
@@ -82,7 +86,7 @@ table th {
 }
 
 .single-column-container {
-  max-width: 37.5em;
+  max-width: 32.5em;
   margin-bottom: 20px;
 }
 
@@ -107,6 +111,14 @@ table th {
   color: inherit;
 }
 
+a {
+  color: #004b8c;
+}
+
+a.no-a-color {
+  color: inherit;
+}
+
 a.no-underline {
   text-decoration: none !important;
 }
@@ -121,7 +133,7 @@ a .feature-link:hover .title {
 
 .feature-link .title {
   font-weight: bold;
-  font-family: "IBM Plex Serif", serif;
+  font-family: var(--serif);
 }
 
 .feature-link .date {
@@ -192,6 +204,7 @@ code {
 
 .home :link:not(:hover) {
   text-decoration: none;
+  color: inherit;
 }
 
 /* Nav */
@@ -209,6 +222,9 @@ code {
 .nav-item {
   display: inline-block;
   margin-left: 20px;
+}
+.nav-item a {
+  color: inherit;
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
@@ -316,12 +332,22 @@ a[href].direct-link:focus:visited,
 }
 
 .post {
-  font-family: "IBM Plex Serif", serif;
+  font-family: var(--serif);
   line-height: 1.5;
 }
 
-.post p {
-  font-size: 20px;
+.post p, li {
+  font-size: 19px;
+}
+
+.post sup {
+  vertical-align: top;
+  position: relative;
+  top: -0.4em;
+}
+
+.inset li{
+  font-size: var(--default-font-size);
 }
 
 .post h1 {
@@ -341,6 +367,13 @@ a[href].direct-link:focus:visited,
   font-size: 1.4em;
   margin: 1.8em 0 0.8em 0;
   line-height: 100%;
+}
+
+.post > :not(.inset.table-of-contents) > h4 {
+  font-size: 1.2em;
+  margin: 1.6em 0 0.6em 0;
+  line-height: 100%;
+  font-style: italic;
 }
 
 .post .date {
@@ -493,9 +526,8 @@ blockquote p:first-of-type {
   padding: 15px;
 }
 
-.inset h4 {
-  margin-top: 0px;
-  margin-bottom: 5px;
+.table-of-contents a {
+  color: inherit;
 }
 
 .inset details {
@@ -518,8 +550,18 @@ summary {
   cursor: pointer;
 }
 
-.revisions-link {
+.revisions-link a {
   font-size: 0.9rem;
   margin-left: 10px;
   color: #BBB;
+}
+
+.tick {
+  font-family: var(--serif);
+}
+
+.inset h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-style: none;
 }

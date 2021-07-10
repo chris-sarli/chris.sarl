@@ -9,7 +9,7 @@ layout: layouts/post.njk
 ---
 <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
 
-<div class="inset">
+<div class="inset table-of-contents">
 <h4>Table of Contents</h4>
 <details>
   <summary>The Bike</summary>
@@ -23,7 +23,6 @@ layout: layouts/post.njk
     <li><a href="#lights-and-reflectors">Lights and Reflectors</a></li>
     <li><a href="#handlebars">Handlebars</a></li>
     <li><a href="#brakes">Brakes</a></li>
-    <li><a href="#ride-performance">Ride Performance</a></li>
     <li><a href="#overall-aesthetic">Overall Aesthetic</a></li>
   </ul>
 </details>
@@ -56,7 +55,7 @@ But less than a year after they had appeared, the bikes were pulled. JUMP's orig
 
 Crime and nuisance was also linked to JUMP's bikes. There were surely some minor infractions (blocking a sidewalk, riding too close to a pedestrian, that sort of thing), but a handful (out of hundreds of thousands of bike trips) of particularly bad incidents were magnified, and these events quickly snowballed into [some rather sensationalized local news coverage](https://www.wpri.com/news/local-news/providence/jump-bikes-being-used-for-crimes-is-a-serious-problem/) that implied a slight but definite link between the bikes and breakdown of social order. Some of the incidents warranted outrage and concern (for example, a JUMP technician was threatened by a man with a gun while on the job), but the tone taken by politicians and local news outlets in responding to those issues implied a causal relationship between bikes and crime that simply didn't exist.[^projo-good-clean-fun] It was lazy and pandering, and I hope our leaders and media will not repeat that particular mistake when issues inevitably arise with Spin's bikeshare.
 
-Facing the backlash over the misuse of it's bikes. In February 2020, [The Providence Journal reported JUMP was planning to return](https://www.providencejournal.com/news/20200207/jump-bikes-returning-to-providence-in-spring) that spring, but the pandemic appears to have cancelled that.
+Facing the backlash over the misuse of it's bikes. In February 2020, [*The Providence Journal* reported JUMP was planning to return](https://www.providencejournal.com/news/20200207/jump-bikes-returning-to-providence-in-spring) that spring, but the pandemic appears to have cancelled that.
 
 But there's a new bikeshare in town: [Spin](https://spin.app). I spent the last week trying out their offering, evaluating the [new S-300 electric bike](https://www.spin.app/blog-posts/spin-goes-multimodal-adding-s-300-electric-bike-to-its-vehicle-portfolio) itself, the app and experience around using that bike, and some thoughts I have on Spin as a company and the future of bikeshare in small cities like Providence.
 
@@ -91,6 +90,8 @@ But, that added security comes with some tradeoffs. Routing the cable along the 
 
 I also found (once, out of the six trips I took on the S-300) that the lock can get stuck. I had parked the bike and inserted the lock as far as it would go. Noticing that the bike hadn't chirped its confirmation that my ride had ended (confirmed by a glance at the Spin app), I realized that there was still a bit of the metal pin visible. I tried rotating the rear wheel to ensure that I hadn't hit a spoke and tried backing the pin out and trying again, but it was stuck. Too far in to take it out, but not far enough in to convince the bike that I had ended my ride. I spent a few minutes trying to dislodge the lock, scoured the app to see if there was a way to send a force unlock command to the bike (there wasn't), but ultimately decided to give up. I had stuff to do, and ended up walking home. I submitted a support ticket, an experience you can read about more [below.](#customer-service)
 
+I'm also worried that others might be having difficulties with the lock. In the past several weeks walking around Providence, I've seen at two strangers (out of the maybe 15-20 total people I've seen riding an S-300) clearly struggling with the mechanism. This, of course, is anecdotal evidence of course (and it's not like other docked solutions like those found with CitiBike are super easy to use).
+
 Obviously, I didn't try to break into the S-300. In general, I think Spin succeeded in creating a more secure dockless bikeshare bike, but it definitely isn't close to unbreakable (nothing is).
 
 ### Saddle
@@ -111,9 +112,9 @@ The saddle is much wider than the saddle I'm used to, especially towards the bac
 The S-300's handlebar-mounted basket is a disappointment. Certainly it's better than no basket, but it's almost frustratingly small. Spin, in a [press release](https://www.spin.app/blog-posts/keep-it-s-300-introducing-the-spin-s-300-e-bike), says they want us to use it to carry the stuff of everyday life:
 > It’s robust front storage compartment handles groceries and deliveries with ease
 
-But Providence is a city of many hills, potholes, and terrible drivers. I'm not sure the S-300 was designed and tested, but I find it very hard to imagine anyone felt good about transporting groceries through Providence in this basket. I've carried precarious loads (several watermelons, pizzas, water jugs, glassware) on bikes before, and have always felt reasonably comfortable doing so because I've had a deep enough container (a milk crate in the case of the watermelon), bungees and straps, or both. The S-300 has a relatively shallow basket with no builtin way of strapping down the contents of that basket. I'm sure the basket can support up to its 17.6 lbs capacity when stationary, but once in motion I have very little confidence that the contents would stay inside.
+But Providence is a city of many hills, potholes, and terrible drivers. I'm not sure where the S-300 was designed and tested, but I find it very hard to imagine anyone feeling good about transporting groceries through Providence in this basket. I've carried precarious loads (several watermelons, pizzas, water jugs, glassware) on bikes before, and have always felt reasonably comfortable doing so because I've had a deep enough container (a milk crate in the case of the watermelon), bungees and straps, or both. The S-300 has a relatively shallow basket with no built-in way of strapping down the contents of that basket. I'm sure the basket can support up to its 17.6 pound capacity when stationary, but once in motion I have very little confidence that the contents would stay inside.
 
-The basket is mounted on the handlebars, and functions like a pinball flipper when the front wheel gets a jolt (again, Providence has many potholes). I tried moving riding for about 5 minutes with a tote bag containing about 4 lbs of groceries in the basket, and while everything stayed in the basket, there were a few close calls even though I was riding more slowly than I otherwise would have. If I felt that uneasy about carying $7 of vegetables, there's no way in hell I'm trusting that basket with something valuable like my bookbag.
+The basket is mounted on the handlebars, and functions like a pinball flipper when the front wheel gets a jolt (again, Providence has many potholes). I tried moving riding for about 5 minutes with a tote bag containing about 4 pounds of groceries in the basket, and while everything stayed in the basket, there were a few close calls even though I was riding more slowly than I otherwise would have. If I felt that uneasy about carrying $7 of vegetables, there's no way in hell I'm trusting that basket with something valuable like my bookbag.
 
 I really think Spin needs to go back to the drawing board on this one. Every other bikeshare I've used has had a better basket than this. JUMP had nice, deep baskets that I always felt confident using for groceries. Heck, [CitiBike has some models](https://nyc.streetsblog.org/2018/08/07/new-citi-bikes-with-bigger-baskets-hit-the-streets-today/) with baskets even smaller and shallower than the S-300, but because they include a bungee cords, I've always felt at least somewhat comfortable using them.
 
@@ -122,7 +123,6 @@ I really think Spin needs to go back to the drawing board on this one. Every oth
 The bikes use chain drives, and all gearing is handled internally. Most of the chain is covered, with only the bottom of the chain exposed. I tested the bikes when they were brand new, so the chains seemed to be quiet and clean, and I'm hopeful Spin will be able to maintain this level of quality as the bikes are used and abused in all four seasons of Providence weather.
 
 ![S-300 Gears](/img/spin-gears.jpg "The S-300 Rear Gear Hub")
-{% caption 'The S-300 has a chain.' %}
 
 The bottom of the chain loop is exposed, so I was initially worried about pants legs getting caught or greasy, but after testing I don't think this is a huge concern. The pedals are positions fairly far from the chain and front cog, and the upper part of the cog is separated from the world (and the rider's legs) by the the external shell of the bike. When I'm riding my normal bike in jeans, I usually roll up my right pants leg just so that if the pants *do* get grease on them, I can easily hide it. I didn't feel like this precaution was needed on the S-300, but other clothing types may warrant different considerations. In the future, Spin could go above and beyond by equipping their bikes either with full chain guards or belt drive systems, but the lack of either doesn't detract from the S-300.
 
@@ -135,7 +135,6 @@ The S-300 uses a Segway system for the battery and motors. I don't know much of 
 The S-300 has reasonably thick 26 inch tires, which seem fairly standard for bikeshare bikes. There are also white reflectors ringing each side of each tire. I've been seeing these more and more on bikes, and I very much like it. These reflectors signal a bikes presence very distinctively when illuminated at night, and they also look nice too.
 
 ![S-300 Tire](/img/spin-tire.jpg "The S-300 Tire")
-{% caption 'The S-300 has a chain.' %}
 
 The wheels are interesting. Spin is using wheels with 12 "spokes," paired to give the impression of 6 "spokes." I'm almost certain that these were selected over standard wheels because it makes it much easier to lock. The locking mechanism (discussed later) relies on putting a long metal pin through the rear wheel. Leaving more large, empty space in the wheel means that users are much less likely to hit the spoke when locking the bike, probably reducing maintenance costs of broken spokes and reducing user frustration.
 
@@ -165,7 +164,7 @@ And even if I felt it was secure enough, I don't think I'd *want* my phone to be
 
  In the event you *do* want to clamp in your phone, the bike can wirelessly charge your phone through the Qi standard, as indicated by a small label on the surface your phone would sit. Above that is some unoffensive Spin branding and a QR code used in unlocking the bike. Because the code is under a shiny layer of plastic. Rain water or glaring sun can make it difficult to get a clear read of the code, which would be solved if they had used a sticker instead. There's an additional code on the down tube that is easier to get a read from.
 
- Below that, there are three icons, presumably a crossed circle to indicate "no," a snail to indicate "slow", and a parking symbol. Below this is a speed display, using standard 8-segment digit displays. I found this to be a clear and easily readable display, even in direct sun.
+ Below that, there are three icons, presumably a crossed circle to indicate "no," a snail to indicate "slow," and a parking symbol. Below this is a speed display, using standard 8-segment digit displays. I found this to be a clear and easily readable display, even in direct sun.
 
  Below the speed display is lettering indicating an NFC reader. I thought this was an odd choice, because while *I* am a nerd and know that NFC is Near Field Communication, and means you should tap a think there, most people don't know what this acronym indicates (which I believe is a tag that can be used for phone-less unlock, discussed later). This seems like an odd choice, because most NFC readers people interact with use at least some symbology to indicate wireless communication upon tap, usually with sideways waves (like on this credit card reader at CVS).
 
@@ -179,15 +178,11 @@ Attached to the handlebars are two brake levers. As is standard on many bikes, t
 
 The brakes themselves are probably fine for a bikeshare and casual or leisurely riders, but I ride in traffic and would personally like something a bit stronger. For example, the first time I was testing the bike I was riding down Westminster Street in light rain when the car in front of me had to abruptly stop. I slammed on the brakes but still gently collided with their rear bumper. I was fine, the car was fine, no massive lawsuit ensued, so no big deal. But still, I felt that if I had been on my own bike I would have stopped a little sooner and not collided. It may have been a combination of operator (my) error in being distracted or following too closely or the slick surface, but this isn't an unrealistic scenario. I would like it if the brakes gave me maybe 10-15% more confidence than they currently do.
 
-### Ride Performance
-
-To do.
-
 ### Overall Aesthetic
 
-Maybe it's just that bikeshare (and electric bikeshare too) aren't brand new anymore (and that I look at lots of pictures of bikeshares), but Spin's bikes have a generic sort of look. The <span style="background-color: #ed6044; padding: 0 6px 0 6px; border-radius: 12px; color:white;">orange color</span> and slanted logo they've branded their company (and by extension, these bikes) with is passable and unoffensive. The <span style="background-color: #373f4a; padding: 0 6px 0 6px; border-radius: 12px; color:white;">gray</span> they've used as the base color seems like it could be sold in a paint store as "default dark gray." I don't think I'd really think about this on most bikeshare bikes, but between the huge battery and the rear fender (which doubles as a deterrent to would-be vandals), the S-300 is *big*, as in it has a heavy sort of visual presence. We're accustomed to seeing bikes as rather lightweight-looking things (even if the bike is made of steel and very heavy, the tubes are generally pretty thin), so most electric bikes look a little bulky. The S-300 has a big battery and shielding, so it has a *lot* of bulk. I think Spin should try to do a better job of hiding that bulk, or leaning into it.
+Maybe it's just that bikeshare (and electric bikeshare too) aren't brand new anymore (and that I look at lots of pictures of bikeshares), but Spin's bikes have a generic sort of look. The <span style="background-color: #ed6044; padding: 0 6px 0 6px; border-radius: 12px; color:white;">orange</span> color and slanted logo they've branded their company (and by extension, these bikes) with is passable and unoffensive. The <span style="background-color: #373f4a; padding: 0 6px 0 6px; border-radius: 12px; color:white;">gray</span> they've used as the base color seems like it could be sold in a paint store as "default dark gray." I don't think I'd really think about this on most bikeshare bikes, but between the huge battery and the rear fender (which doubles as a deterrent to would-be vandals), the S-300 has a visual presence that looks heavy. We're accustomed to seeing bikes as rather lightweight-looking things (even if the bike is made of steel and very heavy, the tubes are generally pretty thin), so most electric bikes look a little bulky. The S-300 has a big battery and shielding, so it has a *lot* of bulk. I think Spin should try to do a better job of hiding that bulk, or leaning into it.
 
-JUMP, for example, had picked a very unique <span style="background-color: #e83824; padding: 0 6px 0 6px; border-radius: 12px; color:white;">reddish color</span> and covered its somewhat bulky bikes with it. That choice signaled that they *chose* a distinctive color for an exciting new product, and that color stood out on city streets, but it also looked strangely natural. JUMP's bike wasn't as bulky as the S-300, so Spin probably has a harder challenge here, but I think they should spend some time and attention in this. Right now I'd describe the S-300 as looking utilitarian, but not a particularly shade of utilitarian.
+JUMP, for example, had picked a very unique <span style="background-color: #e83824; padding: 0 6px 0 6px; border-radius: 12px; color:white;">reddish</span> color and covered its somewhat bulky bikes with it. That choice signaled that they *chose* a distinctive color for an exciting new product, and that color stood out on city streets, but it also looked strangely natural. JUMP's bike wasn't as bulky as the S-300, so Spin probably has a harder challenge here, but I think they should spend some time and attention in this. Right now I'd describe the S-300 as looking utilitarian, but not a particularly pleasing shade of utilitarian.
 
 It's certainly more important that the S-300 works and Spin's user experience is pleasant than the bikes look nice, but while looks aren't everything, they also aren't nothing. For one, it's important for getting people to try bikeshare out. *I* always prefer to take my bike or the bus to get where I'm going, but lots of people prefer to drive, and the fact that a growing number of Americans will make financially moronic decisions so that they can drive "luxury" vehicles is evidence that appearance in mobility matters at least a little. Functionality matters more, but Spin can encourage a lot more people to try bikeshare if it can convince them that they'd look attractive riding it. [Mad Men 101](https://www.youtube.com/watch?v=-qY1c1G2ORY).
 
@@ -297,17 +292,31 @@ Let's handle the *when* first. Per [City Regulations,](https://www.providenceri.
 
 ### "Backed by Ford Motor Company"
 
+Spin has been a subsidiary of Ford [since it acquired the company in 2018](https://media.ford.com/content/fordmedia/fna/us/en/news/2018/11/08/let_s-go-for-a-spin--ford-buys-scooter-company-to-provide-custom.html), a relationship which Spin displays prominently on its website. If I had to guess, Ford's ownership of the company appeals to cities that are eager to offer micromobility options, but do not have the resources to develop a system themselves and which are wary of less mature companies (like Uber, owner of JUMP). I'd also imagine that given that the public at large might be more willing to trust something if such a well-known company is behind it.
+
+However, I see the fact that Spin is owned by Ford to be more of a cause for caution, if not an outright liability. A successful bikeshare, in my mind, is one that enables significant mode shift (people replacing trips they would normally make by private car with another mode of transportation). It's great if a bikeshare encourages people to make new trips they otherwise wouldn't (especially pleasure trips), but we as a society really need to get people cars and onto bikes and transit for the boring and unexciting trips they make everyday, [many of which are short enough that they should be easy enough to accomplish by bike](https://www.energy.gov/eere/vehicles/articles/fotw-1042-august-13-2018-2017-nearly-60-all-vehicle-trips-were-less-six-miles). It isn't hard to think up a few reasons to question Ford's commitment.
+
+#### Simple Conflict of Interest
+
+It won't happen overnight, but Providence should be aiming to have a [mode share](https://en.wikipedia.org/wiki/Modal_share) of private car trips at least as low as Utrect, where less than 20% of trips are taken by private car and almost half of all trips are taken by bike. Of course, a mode shift of this scale would mean a drastically reduced demand for automobiles, which is the core of Ford's business. Because they are physically bigger and more technically complex, cars and trucks are always going to be more expensive than everyday bicycles. It makes sense that Ford may want a piece of micromobility profits (it's good PR that reads as vaguely environmental), but it just wouldn't make sense that Ford would *want* micromobility to begin to compete with its primary business.
+
+#### Rumblings of Doubt
+
+In May, [Bloomberg reported](https://www.bloomberg.com/news/articles/2021-05-20/ford-is-said-to-weigh-exit-of-electric-scooter-unit-spin) that Ford was considering divesting Spin:
+
+  > New CEO Jim Farley is eliminating extraneous operations as he works to accelerate the automaker’s bet on electric vehicles, which he recently doubled to [$22 billion.](https://www.bloomberg.com/news/articles/2021-02-04/ford-beats-wall-street-profit-estimates-boosts-ev-spending) Argo AI, a self-driving startup backed by Ford and Volkswagen AG, is considering going public as soon as this year, Bloomberg News has [reported.](https://www.bloomberg.com/news/articles/2021-04-02/ford-backed-self-driving-startup-argo-ai-mulling-ipo-this-year)
+
+  > Farley has honed Ford’s focus to electric and [autonomous](https://www.bloomberg.com/news/articles/2021-05-04/ford-backed-argo-sees-new-sensor-as-key-for-self-driving-cars) vehicles. The automaker on Wednesday introduced an electric version of its top-selling [F-150](https://www.bloomberg.com/news/articles/2021-05-20/ford-hopes-new-electric-f-150-pickup-will-boost-ev-street-cred) pickup, which President Joe Biden drove the day [before](https://www.bloomberg.com/news/articles/2021-05-18/biden-takes-ford-s-new-electric-f-150-for-surprise-spin-at-track), after touring the Michigan plant where it will be built.
+
+This isn't shocking, given the conflict of interest I've outlined above. While the Biden Administration has taken a few pro-transit and pro-bike actions, and has even [hinted at funding urban highway removals](https://www.washingtonpost.com/local/trafficandcommuting/highway-removal-infrastructure/2021/03/31/effd6a26-9234-11eb-a74e-1f4cf89fd948_story.html), unfortunately (but perhaps not surprisingly) it has not significantly challenged the dominant role of the auto industry or automobile in American life. It is similarly unfortunate and unsurprising that Ford and its peers would use the opportunity to focus electrification (not trivial, but not really challenging or risky at this point) instead of mode shift.
+
+#### We've Been Here Before
+
+Uber isn't a
+
 [^theoretically]: I say "theoretically" because this seemed to be the prevailing narrative at the time. It *does* seem plausible that the cable loop in the second version was more vulnerable to attack (say, by cable cutters) than the original mechanism (which was just a U-Lock-style metal shackle), but personally I think this was rather overblown, and puts too much blame in a technology while obscuring policy failure.
 
 [^projo-good-clean-fun]: The Providence Journal discussed this in what is [perhaps the only "good" piece of local journalism published on the issue](https://www.providencejournal.com/news/20190828/for-most-providence-kids-bikes-are-about-good-clean-fun).
-
-[^saddle-height]: Saddle height is measured from the saddle to the pedal of the lower crank arm, such that the crank arm is parallel with the saddle tube.
-
-[^basket-tapper]: The basket does tapper, so don't expect a box of these dimensions to fit snuggly.
-
-[^puncture-resistance]: I don't know if this means they have contain a sealant like tubeless tires often do, or if this is just some marketing language. In any case, I didn't pop any tires over the course of my testing.
-
-[^color]: I don't mean that the orange they've chosen is a "bad" color and they need to do a big rebranding. I'd much rather them just do something with what they already have to make it look less like a product I would order off of Amazon and more like something that is in *and* of the city.
 
 [^scooter-comparison]: The bikes are definitely offer more bang for the buck. They're faster (and thus can go further in a given period of time), can carry stuff in the basket, have motors better able to cope with steep inclines, have better acceleration, and are generally much more resilient to potholes. I've ridden scooters a few times in the absence of any bikeshare, and have always wished instead that I was on a bike. <br>
   [The Mayor has said](https://www.providenceri.gov/mayor-elorza-announces-re-launch-electric-bike-share-providence/) that "having the choice of an e-bike or an e-scooter gives riders the opportunity to pick a vehicle that best fits their journey," but excluding a mobility challenge that would prevent someone from riding a bike but not a scooter, I can't imagine a single situation in which a scooter is the better (or more enjoyable) vehicle for the trip. They feel like toys, not in the fun sense, but in the inferior sense.
