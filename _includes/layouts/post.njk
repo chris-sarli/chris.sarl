@@ -5,7 +5,7 @@ templateClass: tmpl-post
 <article class="post">
   <div class="single-column-container">
     <h1>{{ title | safe }}</h1>
-    <div class="date"><time datetime="{{date.toLocaleString()}}">{{ date.toLocaleString('en-US', {year: 'numeric', day: 'numeric', month: 'long'}) }}</time><span class="revisions-link"><a href="https://github.com/chris-sarli/chris-sarli.github.io/commits/master/CNAME"><em>Revision History</em></a></span></div>
+    <div class="date"><time datetime="{{date.toLocaleString()}}">{{ date.toLocaleString('en-US', {year: 'numeric', day: 'numeric', month: 'long'}) }}</time><span class="revisions-link"><a href="https://github.com/chris-sarli/chris-sarli.github.io/commits/master{{ relpath }}"><em>Revision History</em></a></span></div>
     <br>
     {{ content | safe }}
   </div>

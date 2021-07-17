@@ -31,17 +31,17 @@
 }
 
 #gbfs_viewer_img {
-  background: url('./img/gbfs_viewer.png');
+  background: url('../img/gbfs_viewer.png');
 }
 
 #parking_img {
   background-size: contain;
-  background: url('./img/parking.png');
+  background: url('../img/parking.png');
 }
 
 #building_age_img {
   background-size: contain;
-  background: url('./img/how-old-is-providence.png');
+  background: url('../img/how-old-is-providence.png');
 }
 
 .description {
@@ -53,4 +53,8 @@
   font-size: 1.4em;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.continue_link a {
+  text-decoration: none;
 }
