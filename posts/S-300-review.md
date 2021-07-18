@@ -7,6 +7,7 @@ tags:
   - providence
 layout: layouts/post.njk
 relpath: /posts/S-300-review.md
+metaimg: https://chris.sarl/img/spin-gears.jpg
 ---
 <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
 
@@ -45,7 +46,7 @@ relpath: /posts/S-300-review.md
 </details>
 </div>
 
-![Spin Photo](/img/spin-photo.png "title")
+![Spin Photo](/img/spin-photo.png "Spin Stock Photo")
 {% caption 'A stock photo of Spin&rsquo;s bikeshare offering, via <a href="https://www.providenceri.gov/planning/e-scooter-share-pilot-program/">The City of Providence.</a>' %}
 
 Providence's first experience with bikeshare was less than ideal.
