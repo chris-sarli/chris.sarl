@@ -1,0 +1,60 @@
+#items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  box-sizing: border-box;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.item:last-of-type {
+  border-bottom: none;
+}
+
+.work_image {
+  width: 175px;
+  margin-right: 1em;
+  box-sizing: border-box;
+  background: #f8f8f8;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+#gbfs_viewer_img {
+  background: url('../img/gbfs_viewer.png');
+}
+
+#parking_img {
+  background-size: contain;
+  background: url('../img/parking.png');
+}
+
+#building_age_img {
+  background-size: contain;
+  background: url('../img/how-old-is-providence.png');
+}
+
+.description {
+  line-height: 1.5;
+  width: calc(100% - 175px);
+}
+
+.description .title {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.continue_link a {
+  text-decoration: none;
+}

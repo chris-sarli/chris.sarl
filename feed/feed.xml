@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Chris Sarli</title>
+	<subtitle>A short bio, links to projects, and the occasional blog post.</subtitle>
+	
+	<link href="https://chris.sarl/feed/feed.xml" rel="self"/>
+	<link href="https://chris.sarl/"/>
+	<updated>2021-07-18T17:26:47Z</updated>
+	<id>https://example.com/</id>
+	<author>
+		<name>Chris Sarli</name>
+		<email></email>
+	</author>
+</feed>
