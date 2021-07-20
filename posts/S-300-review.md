@@ -1,7 +1,7 @@
 ---
 title: Going for a Spin—A Review of Providence&rsquo;s Second Bikeshare Attempt
 description: A look at Spin's new S-300 electric bike, the software that surrounds it, and the company and City that promote it.
-date: 2021-07-17
+date: 2021-07-20
 tags:
   - transportation
   - providence
