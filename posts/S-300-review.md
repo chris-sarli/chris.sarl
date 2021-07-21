@@ -354,11 +354,14 @@ But how about the industry as a whole? The City of Providence, amongst many othe
 
 I don't think Ford's presence via Spin has changed this dynamic. Certainly, Spin does feel like at least a slightly more stable company than JUMP ever did, but even if there weren't the above-outlined conflicts of interest and rumblings of doubt, I don't know if much would be different. Micromobility is just still too turbulent of an industry, and its future is too dependent on local, state, and national policy to really feel like a sure thing.
 
-Though I have reservations on how long Spin will operate in Providence, it's here today, and you should give the S-300 a try. It's intriguing and fun, and cheap enough to try at least once (even if it's too pricy to use regularly).
+Though I have doubts about how long Spin will really operate in Providence, it's here today, and you should give the S-300 a try. It's intriguing and fun, and cheap enough to try at least once (even if it's too pricy to use regularly).
 
 <aside>
 <div class="inset yellow">
-Please note, a member of Spin's Press Team reached out to me when I <a href="https://twitter.com/chris_sarli/status/1404490322051207176">mentioned on Twitter</a> that I was working on this review. I did send them an (admittedly long) list of questions, and haven't gotten answers back in over two weeks, despite a follow up email. If and when I do receive responses, to any of my questions, I'll update this review accordingly. The diffs will be available via the version history.
+Please note, a member of Spin&rsquo;s Press Team reached out to me when I <a href="https://twitter.com/chris_sarli/status/1404490322051207176">mentioned on Twitter</a> that I was working on this review. I did send them an (admittedly long) list of questions, and haven&rsquo;t gotten answers back after almost a month, despite a follow up email. If and when I do receive responses, to any of my questions, I&rsquo;ll update this review accordingly. The diffs will be available via the version history.
+<br />
+<br />
+There were a number of additional topics I had hoped to cover in this post, but had to cut because it was getting far too long. I had especially hoped to cover Spin&rsquo;s collection and use of rider data and the implications for rider privacy. I was planning to ask Spin to elaborate on its data policies, but haven&rsquo;t yet because I&rsquo;m still waiting on a response to that initial list of questions (which mostly concerned the S-300&rsquo;s design).
 </div>
 </aside>
 

@@ -8,6 +8,6 @@ eleventyNavigation:
 <h1>Posts</h1>
 <ul>
 {%- for post in collections.post -%}
-<li><a href="{{post.url}}"><strong>{{ post.data.date.toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric'}) }}</strong> {{ post.data.title | safe }}</a></li>
+<li><a href="{{post.url}}"><strong>{{ post.data.date.toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC'}) }}</strong> {{ post.data.title | safe }}</a></li>
 {%- endfor -%}
 </ul>
