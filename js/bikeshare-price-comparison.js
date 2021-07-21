@@ -60,7 +60,7 @@ price_schemes = [
   },
   {
     "id": 6,
-    "label": "CitiBike (Electic)",
+    "label": "CitiBike (Electric)",
     "selected": false,
     "color": "#1d44a9",
     "fn": (x => 3.5 + (0.18 * x)),
