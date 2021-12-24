@@ -44,6 +44,11 @@
   background: url('../img/how-old-is-providence.png');
 }
 
+#station_search_img {
+  background-size: contain !important;
+  background: url('../img/station-search.png');
+}
+
 .description {
   line-height: 1.5;
   width: calc(100% - 175px);
