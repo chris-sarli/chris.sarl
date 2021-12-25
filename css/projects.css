@@ -7,14 +7,31 @@
 }
 
 .item {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: stretch;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 175px 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 15px;
+  grid-template-areas:
+    "work_image description";
   box-sizing: border-box;
   margin-bottom: 2em;
   padding-bottom: 2em;
   border-bottom: 1px solid #d6d6d6;
+}
+
+@media only screen and (max-width: 530px) {
+  .item {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px min-content;
+    grid-template-areas:
+      "work_image"
+      "description";
+    gap: 15px 0px;
+  }
+  .work_image {
+    width: 100% !important;
+  }
 }
 
 .item:last-of-type {
@@ -22,6 +39,7 @@
 }
 
 .work_image {
+  grid-area: work_image;
   width: 175px;
   margin-right: 1em;
   box-sizing: border-box;
@@ -51,8 +69,8 @@
 }
 
 .description {
+  grid-area: description;
   line-height: 1.5;
-  width: calc(100% - 175px);
 }
 
 .description .title {
