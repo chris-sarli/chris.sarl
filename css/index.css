@@ -242,6 +242,10 @@ code {
   text-decoration: underline;
 }
 
+.post-ul li {
+  margin-bottom: 15px;
+}
+
 /* Posts list */
 .postlist {
   list-style: none;

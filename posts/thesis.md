@@ -1,0 +1,22 @@
+---
+title: Undergraduate Honors Thesis
+description: A PDF was generated.
+date: 2022-06-16
+layout: layouts/post.njk
+relpath: /posts/thesis.md
+---
+In completion of my degree in Urban Studies, I wrote a ["Senior Honors Thesis"](https://www.brown.edu/academics/urban-studies/curriculum/honors) titled "Localizing a Global Network: Urban Internet Infrastructure." [Here's a PDF,](/files/thesis.pdf) if you're interested in reading it.
+
+At a high level, the thesis examines the holes in home Internet service in American cities, the failures of governments to plug those holes, and grassroots efforts that have arisen to attempt to bridge those divides. The abstract is as follows:
+> The Internet is increasingly important to urban life, but Internet service in American cities is overpriced and slower than it should be. Even though it is technically possible to allocate high quality connections to all those who want one, significant populations are stuck with very poor connections or lack a connection altogether, an inequity that reinforces gaps in access to healthcare, education, and employment. This thesis examines the extent of this urban digital divide and explores the policies and (lack of) regulation that have allowed it to worsen. It also covers efforts to overcome these issues and the challenges opponents of the status quo face. In that vein, this thesis stresses not just the importance of providing connections, but also considers the implications of *how* those connections are provided, with an eye towards the role of local political power in infrastructure and grassroots participation.
+
+# Writing Software
+
+I always enjoy learning about what tools others use for various projects, so I though I'd post a list of some of the various things I used while writing:
+- [**Texpad**](https://www.texpad.com). I made a decision early on that I'd use [LaTeX](https://en.wikipedia.org/wiki/LaTeX) to prepare my final submission.[^why-latex] I could have used any text editor for this, but Texpad has a really wonderful live preview, position syncing, autocompletion for citations and references, and a clean interface that fits right in on macOS.
+- [**Zotero**](https://www.zotero.org). an absolutely indispensable tool for research. Beyond just tracking bibliographic information for my sources, [Zotero 6's support for in-app PDF viewing and annotation](https://www.zotero.org/blog/zotero-6/) really streamlined the whole process of reviewing and citing documents. I had a "Thesis" project to hold all relevant sources, and was able to export this to a BibTeX file in my LaTeX source folder to generate the document.[^exporting-bibtex]
+
+
+[^why-latex]: Why LaTeX? For one, I'd written enough LaTeX in the past to be comfortable with it, so the learning curve wasn't really a concern. I didn't want to use Google Docs because I dislike working in web apps, and I didn't think it would give me the control over formatting I wanted. Plus, Google Docs has some [basic citation and bibliography management features](https://support.google.com/docs/answer/10090962?hl=en&co=GENIE.Platform%3DDesktop) and there is a [Zotero integration](https://www.zotero.org/support/google_docs), but I've found these to be a bit limited and sluggish when a document has many citations. I probably would have been happy working in Pages, which I quite like as a word processor, but it doesn't have a plugin for the modern version of Zotero. I'd have considered suffering through Word, but I've never liked Word's interface, and in my experience the Mac version can get sluggish with documents longer than 20 pages (the Zotero plugin is very robust, but also gets really sluggish when there are lots of citations or a large bibliography). I considered fancy options like [Scrivener](https://www.literatureandlatte.com/scrivener.php), which was very nice but slightly too opinionated for this. Typesetting in LaTeX gave me near complete control over formatting, and because `.tex` files are plaintext, editing and saving my work *never* lagged. I was able to set up my bibliography to generate directly from a BibTeX file I exported directly from Zotero, so bibliography management was also quick and easy.
+
+[^exporting-bibtex]: I tried to find some way to script this, but after a few hours of getting nowhere I just decided that the ~10 seconds exporting by pointing and clicking in Zotero's interface whenever I added new sources was a price worth paying.
