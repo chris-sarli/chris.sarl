@@ -582,3 +582,7 @@ summary {
   margin-bottom: 5px;
   font-style: none;
 }
+
+.hidden {
+  display: none;
+}
